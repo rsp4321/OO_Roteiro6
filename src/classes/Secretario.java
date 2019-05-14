@@ -6,6 +6,7 @@ public class Secretario extends Funcionario {
         super();
     }
     
+    @Override
     public void preencher(String nome, char sexo, int idade, float horasTrabalho, float salario){
         super.preencher(nome, sexo, idade, horasTrabalho, salario);
     }
@@ -15,6 +16,7 @@ public class Secretario extends Funcionario {
 //        return bonificacao;
 //    }
     
+    @Override
     public String imprime(){
         
         String str = super.imprime() + 

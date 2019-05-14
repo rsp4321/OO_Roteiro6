@@ -1,7 +1,5 @@
 package classes;
 
-import classes.Pessoa;
-
 public class Cliente extends Pessoa {
     private String cpf;
 
@@ -10,6 +8,7 @@ public class Cliente extends Pessoa {
         this.cpf = "";
     }
     
+    @Override
     public String imprime(){
         String str = super.imprime() + "\nCpf: " + this.cpf;
         

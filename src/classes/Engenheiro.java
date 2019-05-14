@@ -26,6 +26,7 @@ public class Engenheiro extends Funcionario {
 //        return bonificacao;
 //    }
 
+    @Override
     public double getBonificacao() {
 
         double bonificacao = 0;

@@ -25,11 +25,12 @@ public class Diretor extends Funcionario {
         return str;
     }
     
-    public double getBonificacao(int horasTrabalho, float salario){
-        double bonificacao = super.getBonificacao(horasTrabalho, salario, 15);
-        return bonificacao;
-    }
+//    public double getBonificacao(int horasTrabalho, float salario){
+//        double bonificacao = super.getBonificacao(horasTrabalho, salario, 15);
+//        return bonificacao;
+//    }
     
+    @Override
     public double getBonificacao() {
         
         double bonificacao = 0;

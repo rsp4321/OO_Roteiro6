@@ -19,6 +19,7 @@ abstract class Funcionario extends Pessoa {
         this.salario = salario;
     }
 
+    @Override
     public String imprime() {
         String str = super.imprime()
                 + "\nHoras Trabalhadas: " + this.horasTrabalho + "\n"

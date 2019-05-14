@@ -18,6 +18,7 @@ public class Gerente extends Funcionario {
         this.quantPessoasGerenciadas = quantPessoasGerenciadas;
     }
 
+    @Override
     public String imprime() {
 
         String str = super.imprime()
@@ -35,6 +36,7 @@ public class Gerente extends Funcionario {
 //        return bonificacao;
 //    }
 
+    @Override
     public double getBonificacao() {
 
 //        double bonificacao = super.getBonificacao(horasTrabalho, salario, 10);
