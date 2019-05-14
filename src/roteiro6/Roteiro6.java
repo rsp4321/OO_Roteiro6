@@ -5,6 +5,8 @@
  */
 package roteiro6;
 
+import gui.FrImprimir;
+
 /**
  *
  * @author aluno
@@ -15,7 +17,9 @@ public class Roteiro6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        FrImprimir imp = new FrImprimir();
+        imp.setVisible(true);
     }
+    
     
 }
