@@ -10,15 +10,18 @@ public class Secretario extends Funcionario {
         super.preencher(nome, sexo, idade, horasTrabalho, salario);
     }
     
-    public double getBonificacao(int horasTrabalho, float salario){
-        double bonificacao = super.getBonificacao(horasTrabalho, salario, 5);
-        return bonificacao;
-    }
+//    public double getBonificacao(int horasTrabalho, float salario){
+//        double bonificacao = super.getBonificacao(horasTrabalho, salario, 5);
+//        return bonificacao;
+//    }
     
     public String imprime(){
+        
         String str = super.imprime() + 
                 "\nBonificação: " 
-                + getBonificacao((int) this.horasTrabalho, this.salario);
+//                + getBonificacao((int) this.horasTrabalho, this.salario);
+                + super.getBonificacao();
+        
         return str;
     } 
 }
