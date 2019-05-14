@@ -1,6 +1,6 @@
 package classes;
 
-abstract class Pessoa {
+public abstract class Pessoa {
     protected String nome;
     protected char sexo;
     protected int idade;
