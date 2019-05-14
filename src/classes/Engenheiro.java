@@ -21,10 +21,10 @@ public class Engenheiro extends Funcionario {
         return str;
     }
 
-    public double getBonificacao(int horasTrabalho, float salario) {
-        double bonificacao = super.getBonificacao(horasTrabalho, salario, 8);
-        return bonificacao;
-    }
+//    public double getBonificacao(int horasTrabalho, float salario) {
+//        double bonificacao = super.getBonificacao(horasTrabalho, salario, 8);
+//        return bonificacao;
+//    }
 
     public double getBonificacao() {
 
